@@ -1,0 +1,10 @@
+.navbar {
+  background-color: #a6936f;
+  height: 120px;
+}
+
+.title {
+  position: absolute;
+  padding-left: 215px;
+  top: 44px;
+}
