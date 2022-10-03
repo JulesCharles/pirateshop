@@ -1,0 +1,38 @@
+.annonce {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 603px;
+  width: 442px;
+  align-items: center;
+}
+
+/* .firstButton {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  height: 35px;
+  align-self: start;
+  margin-top: 20px;
+} */
+
+.containerModal {
+  background: rgb(36 39 36 / 80%);
+  width: 882px;
+  height: 795px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  display: none;
+  z-index: 100;
+  transform: translate(50%, -50%);
+  backdrop-filter: blur(10px);
+}
+
+/* .firstButtonStyle {
+  background-color: var(--second-color);
+  border-radius: 2px;
+  cursor: pointer;
+  color: var(--white-color);
+  font-family: var(--text-font);
+} */

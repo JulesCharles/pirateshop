@@ -1,0 +1,18 @@
+.bateaux {
+  width: 400px;
+  height: 400px;
+}
+
+.boutiqueContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #bfae8e;
+  line-height: 100px;
+}
+
+.nom {
+  display: flex;
+  justify-content: space-around;
+}
